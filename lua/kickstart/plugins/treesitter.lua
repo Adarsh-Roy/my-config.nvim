@@ -21,14 +21,12 @@ return {
           enable = true,
           lookahead = true, -- Automatically jump forward to text object, similar to targets.vim
           keymaps = {
-            ["af"] = "@function.outer",
-            ["if"] = "@function.inner",
-            ["ac"] = "@class.outer",
-            ["ic"] = "@class.inner",
-            ["ab"] = "@block.outer",
-            ["ib"] = "@block.inner",
-            ["ap"] = "@parameter.outer",
-            ["ip"] = "@parameter.inner",
+            ['af'] = '@function.outer',
+            ['if'] = '@function.inner',
+            ['ac'] = '@class.outer',
+            ['ic'] = '@class.inner',
+            ['ab'] = '@block.outer',
+            ['ib'] = '@block.inner',
           },
         },
       },
@@ -38,7 +36,7 @@ return {
     'nvim-treesitter/nvim-treesitter-context',
     opts = {
       enable = true,
-    }
+    },
   },
   {
     'nvim-treesitter/nvim-treesitter-textobjects',
