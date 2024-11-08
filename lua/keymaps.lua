@@ -54,4 +54,10 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
+vim.api.nvim_create_autocmd('TermOpen', {
+  pattern = '*',
+  callback = function()
+    vim.cmd 'resize 15' -- Adjust the height (15 lines, you can change this)
+  end,
+})
 -- vim: ts=2 sts=2 sw=2 et
