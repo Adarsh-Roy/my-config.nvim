@@ -5,4 +5,5 @@
 return {
   require 'custom.plugins.oil',
   require 'custom.plugins.vim-fugitive',
+  require 'custom.plugins.competiTest',
 }
