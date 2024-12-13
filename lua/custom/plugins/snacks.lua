@@ -4,6 +4,7 @@ return {
   lazy = false,
   ---@type snacks.Config
   opts = {
+    terminal = { enabled = true },
     lazygit = { enabled = true },
     bigfile = { enabled = true },
     dashboard = { enabled = true },
