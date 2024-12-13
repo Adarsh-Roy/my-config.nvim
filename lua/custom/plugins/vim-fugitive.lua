@@ -8,7 +8,7 @@ return {
     vim.keymap.set('n', '<leader>gau', ':Git add -u<CR>', { desc = 'Git Add updated files only' })
     vim.keymap.set('n', '<leader>gc', ':Git commit<CR>', { desc = 'Git Commit' })
     vim.keymap.set('n', '<leader>gp', ':Git push<CR>', { desc = 'Git Push' })
-    vim.keymap.set('n', '<leader>gl', ':Git log --oneline<CR>', { desc = 'Git Log (oneline)' })
+    -- vim.keymap.set('n', '<leader>gl', ':Git log --oneline<CR>', { desc = 'Git Log (oneline)' })
     vim.keymap.set('n', '<leader>gd', ':Gdiffsplit<CR>', { desc = 'Git Diff' })
   end,
 }

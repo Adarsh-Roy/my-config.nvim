@@ -5,5 +5,6 @@
 return {
   require 'custom.plugins.oil',
   require 'custom.plugins.vim-fugitive',
+  require 'custom.plugins.snacks',
   require 'custom.plugins.competiTest',
 }
