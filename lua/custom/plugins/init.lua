@@ -7,4 +7,5 @@ return {
   require 'custom.plugins.vim-fugitive',
   require 'custom.plugins.snacks',
   require 'custom.plugins.competiTest',
+  require 'custom.plugins.flash',
 }
