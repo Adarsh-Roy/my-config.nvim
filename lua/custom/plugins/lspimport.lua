@@ -1,3 +1,4 @@
+-- This plugin allows for importing suggestions for the symbol under the cursor for pyright LSP
 return {
   'stevanmilic/nvim-lspimport',
   config = function()
