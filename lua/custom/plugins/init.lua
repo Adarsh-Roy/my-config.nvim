@@ -8,4 +8,5 @@ return {
   require 'custom.plugins.snacks',
   require 'custom.plugins.competiTest',
   require 'custom.plugins.flash',
+  require 'custom.plugins.lspimport',
 }
