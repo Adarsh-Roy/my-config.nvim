@@ -42,6 +42,11 @@ vim.keymap.set('n', '<leader>>', '<C-w>>', { desc = 'Increase window width' })
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
+-- Quickfix list
+vim.keymap.set('n', '<M-j>', '<cmd>cnext<CR>')
+vim.keymap.set('n', '<M-k>', '<cmd>cprev<CR>')
+vim.keymap.set('n', '<M-q>', '<cmd>cclose<CR>')
+
 -- Highlight when yanking (copying) text
 --  Try it with `yap` in normal mode
 --  See `:help vim.highlight.on_yank()`
