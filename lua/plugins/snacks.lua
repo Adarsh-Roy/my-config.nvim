@@ -22,6 +22,9 @@ return {
       notification = {
         -- wo = { wrap = true } -- Wrap notifications
       },
+      lazygit = {
+        position = 'float',
+      },
     },
   },
   keys = {
