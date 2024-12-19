@@ -23,4 +23,5 @@ return {
   require 'plugins.competiTest',
   require 'plugins.flash',
   require 'plugins.pyrightimport',
+  require 'plugins.harpoon',
 }
