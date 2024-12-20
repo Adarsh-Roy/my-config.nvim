@@ -45,7 +45,8 @@ vim.keymap.set('n', '<leader>>', '<C-w>>', { desc = 'Increase window width' })
 -- Quickfix list
 vim.keymap.set('n', '<M-j>', '<cmd>cnext<CR>')
 vim.keymap.set('n', '<M-k>', '<cmd>cprev<CR>')
-vim.keymap.set('n', '<M-q>', '<cmd>cclose<CR>')
+vim.keymap.set('n', '<M-c>', '<cmd>cclose<CR>')
+vim.keymap.set('n', '<M-o>', '<cmd>copen<CR>')
 
 -- Highlight when yanking (copying) text
 --  Try it with `yap` in normal mode
